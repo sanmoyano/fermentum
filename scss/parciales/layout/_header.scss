@@ -1,0 +1,112 @@
+@import "../utilities/vars";
+@import "../utilities/medias";
+@import "../layout/grids";
+
+/* HEADER NAVBAR - componentes de bootstrap */
+nav {
+    background-color: $black-bg-fmtm;
+    height: 120px;
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+        @include movil {
+            display: flex;
+            justify-content: center;
+        }
+        .me-auto {
+            margin-right: 0px !important;
+        }
+        a.navbar-brand {
+            margin: 0px;
+            padding: 0px;
+        }
+        button {
+            img {
+                margin: 30px;
+            }
+        }
+        a.nav-link {
+            @include movil {
+                margin: 0px 30px;
+            }
+            @include tablet {
+                margin: 0px 30px;
+            }
+        }
+    }
+    div a {
+        img {
+            width: 150px;
+            margin: 0px 30px;
+            @include movil {
+                display: none;
+            }
+        }
+    }
+    ul {
+        background-color: $black-bg-fmtm;
+        font-family: $anchor-typo;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        .inicio {
+            display: none;
+            @include movil {
+                display: flex;
+            }
+            @include tablet {
+                display: flex;
+            }
+        }
+    }
+}
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-dark {
+    .navbar-nav .nav-link {
+        color: $typo-white;
+        &:hover {
+            color: $hover;
+        }
+    }
+    .navbar-toggler {
+        color: $typo-white;
+        border: 0px;
+    }
+} 
+.tienda {
+    background-color: $ligthgrey-bg-fmtm;
+    display: flex;
+    order: 1;
+    flex-wrap: nowrap;
+    height: 120px;
+    padding: 30px;
+    width: auto;
+    @include movil {
+        order: 0;
+    }
+    @include tablet {
+        order: 0;
+    }
+    .tienda__anchor {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: $anchor-typo;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $typo-white;
+        i {
+            font-size: 3.2rem;
+            text-align: center;
+            margin: 10px;
+        }
+        &:hover{
+            color: $hover;
+        }
+    }
+}

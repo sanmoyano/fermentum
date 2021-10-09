@@ -1,0 +1,27 @@
+/* UTILITIES */
+@import "../scss/parciales/utilities/vars";
+@import "../scss/parciales/utilities/medias";
+
+/* GRIDS */
+@import "../scss/parciales/layout/grids";
+
+/* LAYOUT */
+@import "../scss/parciales/layout/hero";
+@import "../scss/parciales/layout/footer";
+@import "../scss/parciales/layout/header";
+
+/* PAGINAS */
+@import "../scss/parciales/layout/inicio";
+@import "../scss/parciales/layout/cervezas";
+@import "../scss/parciales/layout/servicios";
+@import "../scss/parciales/layout/donde";
+@import "../scss/parciales/layout/nosotros";
+@import "../scss/parciales/layout/contacto";
+@import "../scss/parciales/layout/404";
+
+/* COMPONENTS */
+@import "../scss/parciales/components/extend";
+
+/* BASE */
+@import "../scss/parciales/base/typo";
+@import "../scss/parciales/base/reset";

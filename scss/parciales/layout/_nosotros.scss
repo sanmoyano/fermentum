@@ -1,0 +1,21 @@
+@import "../utilities/vars";
+@import "../layout/grids";
+@import "../components/extend";
+@import "../utilities/medias";
+
+.nosotros__subtitulo {
+    @extend %sub-title;
+        a {
+            text-decoration: none;
+            @extend %sub-title-anchor;
+        }
+}
+.nosotros__cards {
+    @extend %cards-sections;
+    .nosotros__cards__descrip {
+        @extend %cards-descrip;
+    }
+}
+.nosotros__cards:hover .nosotros__cards__descrip {
+    opacity: 1;
+}

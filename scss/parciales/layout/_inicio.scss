@@ -1,0 +1,157 @@
+@import "../utilities/vars";
+@import "../layout/grids";
+@import "../components/extend";
+@import "../utilities/medias";
+
+// seccion cervezas 
+.subtitulo {
+    @extend %sub-title; 
+    transition: all 1s;
+    &:hover {
+        height: 150px;
+        background-color: $hover;
+    }
+    a {
+        @extend %sub-title-anchor;
+        transition: all 1s;
+        &:hover {
+            color: $black-bg-fmtm;
+        }
+    }
+}
+
+// seccion comerciales
+.comerciales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $black-bg-fmtm;
+    .comerciales__div {
+        margin: $subtitulos-margin;
+        h2 {
+            margin: 30px 0px;
+        }
+        p {
+            font-size: 2rem;
+            font-weight: 400;
+            color: $typo-white;
+            margin-bottom: 30px;
+        }
+        .comerciales__div__anchor {
+            display:flex;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            background-color: $typo-white;
+            padding: 15px;
+            margin-bottom: 30px;
+            &:hover {
+                background-color: $hover;
+            }
+            a{
+                font-family: $anchor-typo;
+                color: $black-bg-fmtm;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: 700;
+            }
+        }
+    }
+    img {
+        width: 50%;
+        margin-left: $subtitulos-margin;
+        @include movil {
+            display: none;
+        }
+        @include tablet {
+            display: none;
+        }
+    }
+}
+// seccion donde
+.donde {
+    display: flex;
+    flex-direction: column;
+    .donde__h2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: $grey-bg-fmtm;
+        width: 100%;
+        height: $height-sub;
+        a {
+            text-decoration: none;
+        }
+        h2 {
+            margin: $subtitulos-margin;
+        }
+    }
+    .donde__grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "div div";
+        @include movil {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2,1fr);
+            grid-template-areas: 
+                "div"
+                "div";
+        }
+    }    
+}
+// seccion nosotros
+.nosotros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $black-bg-fmtm;
+    .nosotros__div {
+        margin: $subtitulos-margin;
+        h2 {
+            margin: 30px 0px;
+        }
+        p {
+            font-size: 2rem;
+            font-weight: 400;
+            color: $typo-white;
+            margin-bottom: 30px;
+            margin-top: 30px;
+
+        }
+        .nosotros__div__anchor {
+            display:flex;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            background-color: $typo-white;
+            padding: 15px;
+            margin-bottom: 30px;
+            &:hover {
+                background-color: $hover;
+            }
+            a{
+                font-family: $anchor-typo;
+                color: $black-bg-fmtm;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: 700;
+            }
+        }
+    }
+    img {
+        width: 50%;
+        margin-left: $subtitulos-margin;
+        padding: 30px;
+        @include movil {
+            display: none;
+        }
+        @include tablet {
+            display: none;
+        }
+    }
+}

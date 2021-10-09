@@ -1,0 +1,21 @@
+@import "../utilities/vars";
+@import "../components/extend";
+@import "../layout/grids";
+@import "../utilities/medias";
+
+.cerveza__subtitulo {
+    @extend %sub-title;
+    a {
+        text-decoration: none;
+        @extend %sub-title-anchor;
+    }
+}
+.cervezas__cards {
+    @extend %cards-sections;
+    .cervezas__cards__descrip {
+        @extend %cards-descrip;
+    }
+}
+.cervezas__cards:hover .cervezas__cards__descrip {
+    opacity: 1;
+}

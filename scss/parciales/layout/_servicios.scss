@@ -1,0 +1,21 @@
+@import "../utilities/vars";
+@import "../layout/grids";
+@import "../components/extend";
+@import "../utilities/medias";
+
+.serevicios__subtitulo {
+    @extend %sub-title;
+        a {
+            text-decoration: none;
+            @extend %sub-title-anchor;
+        }
+}
+.servicios__cards {
+    @extend %cards-sections;
+    .servicios__cards__descrip {
+        @extend %cards-descrip;
+    }
+}
+.servicios__cards:hover .servicios__cards__descrip {
+    opacity: 1;
+}

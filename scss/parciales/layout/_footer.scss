@@ -1,0 +1,86 @@
+@import "../utilities/vars";
+@import "../base/typo";
+@import "../utilities/medias";
+@import "../layout/grids";
+
+// redes
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $grey-bg-fmtm;
+    height: $height-sub;
+    .section__redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: $typo-white;
+        }
+        .section__redes__div {
+            display: flex;
+            flex-direction: row;
+            a i {
+                color: $typo-white;
+                font-size: 4rem;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                &:hover {
+                    color: $hover;
+                }
+            }
+        }
+    }
+}
+// info contacto
+.section-info {
+    display: flex;
+    flex-direction: column;
+    background-color: $black-bg-fmtm;
+    div img {
+        height: 70px;
+        margin: 30px;
+    }
+    .section-info__horarios {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px;
+        @include movil {
+            display: flex;
+            flex-direction: column;
+        }
+        .section-info__horarios__div {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            h3 {
+                margin-bottom: 15px;
+            }
+            p {
+                color: $typo-white;
+                font-size: 1.4rem;
+                margin: 10px 0px;
+                span {
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+            }
+            i {
+                font-size: 3rem;
+                color: $typo-white;
+            }
+        }
+    }
+    .section-info__derechos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+        color: $typo-white;
+    }
+}

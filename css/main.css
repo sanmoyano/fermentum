@@ -1,0 +1,3614 @@
+/* UTILITIES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* GRIDS */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;900&display=swap");
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* LAYOUT */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  place-items: center left;
+  background-image: url(../../imagenes/bar_05.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: none; }
+  .hero .hero__div {
+    margin-left: 30px; }
+    .hero .hero__div h1 {
+      font-size: 12rem;
+      font-weight: 400;
+      color: #f5f5f5;
+      margin-bottom: 15px;
+      margin-right: 10px; }
+    .hero .hero__div p {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #f5f5f5;
+      margin-bottom: 30px; }
+    .hero .hero__div .hero__div__anchor {
+      display: flex;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      background-color: #f5f5f5;
+      padding: 15px; }
+      .hero .hero__div .hero__div__anchor:hover {
+        background-color: #d9ad5b; }
+      .hero .hero__div .hero__div__anchor a {
+        font-family: "Montserrat", sans-serif;
+        color: #0d0d0d;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 700; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* TIPOGRAFIAS */
+/**font-family: 'Montserrat', sans-serif;**/
+/**font-family: 'Bebas Neue', cursive;**/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', cursive;
+  line-height: 0.8; }
+
+h1 {
+  font-size: 12rem;
+  font-weight: 400;
+  color: #f5f5f5; }
+
+h2 {
+  font-size: 6rem;
+  font-weight: 400;
+  color: #f5f5f5; }
+
+a span {
+  /*subtitulos de secciones*/ }
+  @media screen and (max-width: 425px) {
+    a span {
+      font-size: 5rem; } }
+
+h3 {
+  font-size: 3rem;
+  color: #f5f5f5;
+  font-weight: 200; }
+
+p {
+  font-family: 'Montserrat', sans-serif; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1d1d;
+  height: 130px; }
+  .section .section__redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .section .section__redes p {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #f5f5f5; }
+    .section .section__redes .section__redes__div {
+      display: flex;
+      flex-direction: row; }
+      .section .section__redes .section__redes__div a i {
+        color: #f5f5f5;
+        font-size: 4rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px; }
+        .section .section__redes .section__redes__div a i:hover {
+          color: #d9ad5b; }
+
+.section-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #0d0d0d; }
+  .section-info div img {
+    height: 70px;
+    margin: 30px; }
+  .section-info .section-info__horarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px; }
+    @media screen and (max-width: 425px) {
+      .section-info .section-info__horarios {
+        display: flex;
+        flex-direction: column; } }
+    .section-info .section-info__horarios .section-info__horarios__div {
+      display: flex;
+      flex-direction: column;
+      margin: 15px; }
+      .section-info .section-info__horarios .section-info__horarios__div h3 {
+        margin-bottom: 15px; }
+      .section-info .section-info__horarios .section-info__horarios__div p {
+        color: #f5f5f5;
+        font-size: 1.4rem;
+        margin: 10px 0px; }
+        .section-info .section-info__horarios .section-info__horarios__div p span {
+          font-weight: 600;
+          text-transform: uppercase; }
+      .section-info .section-info__horarios .section-info__horarios__div i {
+        font-size: 3rem;
+        color: #f5f5f5; }
+  .section-info .section-info__derechos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    color: #f5f5f5; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* HEADER NAVBAR - componentes de bootstrap */
+nav {
+  background-color: #0d0d0d;
+  height: 120px; }
+  nav .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px; }
+    @media screen and (max-width: 425px) {
+      nav .container-fluid {
+        display: flex;
+        justify-content: center; } }
+    nav .container-fluid .me-auto {
+      margin-right: 0px !important; }
+    nav .container-fluid a.navbar-brand {
+      margin: 0px;
+      padding: 0px; }
+    nav .container-fluid button img {
+      margin: 30px; }
+    @media screen and (max-width: 425px) {
+      nav .container-fluid a.nav-link {
+        margin: 0px 30px; } }
+    @media screen and (max-width: 768px) {
+      nav .container-fluid a.nav-link {
+        margin: 0px 30px; } }
+  nav div a img {
+    width: 150px;
+    margin: 0px 30px; }
+    @media screen and (max-width: 425px) {
+      nav div a img {
+        display: none; } }
+  nav ul {
+    background-color: #0d0d0d;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+    nav ul .inicio {
+      display: none; }
+      @media screen and (max-width: 425px) {
+        nav ul .inicio {
+          display: flex; } }
+      @media screen and (max-width: 768px) {
+        nav ul .inicio {
+          display: flex; } }
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f5f5f5; }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #d9ad5b; }
+
+.navbar-dark .navbar-toggler {
+  color: #f5f5f5;
+  border: 0px; }
+
+.tienda {
+  background-color: #2d2d2d;
+  display: flex;
+  order: 1;
+  flex-wrap: nowrap;
+  height: 120px;
+  padding: 30px;
+  width: auto; }
+  @media screen and (max-width: 425px) {
+    .tienda {
+      order: 0; } }
+  @media screen and (max-width: 768px) {
+    .tienda {
+      order: 0; } }
+  .tienda .tienda__anchor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f5f5f5; }
+    .tienda .tienda__anchor i {
+      font-size: 3.2rem;
+      text-align: center;
+      margin: 10px; }
+    .tienda .tienda__anchor:hover {
+      color: #d9ad5b; }
+
+/* PAGINAS */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo {
+  transition: all 1s; }
+  .subtitulo:hover {
+    height: 150px;
+    background-color: #d9ad5b; }
+  .subtitulo a {
+    transition: all 1s; }
+    .subtitulo a:hover {
+      color: #0d0d0d; }
+
+.comerciales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d0d0d; }
+  .comerciales .comerciales__div {
+    margin: 0px 30px; }
+    .comerciales .comerciales__div h2 {
+      margin: 30px 0px; }
+    .comerciales .comerciales__div p {
+      font-size: 2rem;
+      font-weight: 400;
+      color: #f5f5f5;
+      margin-bottom: 30px; }
+    .comerciales .comerciales__div .comerciales__div__anchor {
+      display: flex;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      background-color: #f5f5f5;
+      padding: 15px;
+      margin-bottom: 30px; }
+      .comerciales .comerciales__div .comerciales__div__anchor:hover {
+        background-color: #d9ad5b; }
+      .comerciales .comerciales__div .comerciales__div__anchor a {
+        font-family: "Montserrat", sans-serif;
+        color: #0d0d0d;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 700; }
+  .comerciales img {
+    width: 50%;
+    margin-left: 0px 30px; }
+    @media screen and (max-width: 425px) {
+      .comerciales img {
+        display: none; } }
+    @media screen and (max-width: 768px) {
+      .comerciales img {
+        display: none; } }
+
+.donde {
+  display: flex;
+  flex-direction: column; }
+  .donde .donde__h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 130px; }
+    .donde .donde__h2 a {
+      text-decoration: none; }
+    .donde .donde__h2 h2 {
+      margin: 0px 30px; }
+  .donde .donde__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "div div"; }
+    @media screen and (max-width: 425px) {
+      .donde .donde__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "div" "div"; } }
+
+.nosotros {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d0d0d; }
+  .nosotros .nosotros__div {
+    margin: 0px 30px; }
+    .nosotros .nosotros__div h2 {
+      margin: 30px 0px; }
+    .nosotros .nosotros__div p {
+      font-size: 2rem;
+      font-weight: 400;
+      color: #f5f5f5;
+      margin-bottom: 30px;
+      margin-top: 30px; }
+    .nosotros .nosotros__div .nosotros__div__anchor {
+      display: flex;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      background-color: #f5f5f5;
+      padding: 15px;
+      margin-bottom: 30px; }
+      .nosotros .nosotros__div .nosotros__div__anchor:hover {
+        background-color: #d9ad5b; }
+      .nosotros .nosotros__div .nosotros__div__anchor a {
+        font-family: "Montserrat", sans-serif;
+        color: #0d0d0d;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 700; }
+  .nosotros img {
+    width: 50%;
+    margin-left: 0px 30px;
+    padding: 30px; }
+    @media screen and (max-width: 425px) {
+      .nosotros img {
+        display: none; } }
+    @media screen and (max-width: 768px) {
+      .nosotros img {
+        display: none; } }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.cerveza__subtitulo a {
+  text-decoration: none; }
+
+.cervezas__cards:hover .cervezas__cards__descrip {
+  opacity: 1; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.serevicios__subtitulo a {
+  text-decoration: none; }
+
+.servicios__cards:hover .servicios__cards__descrip {
+  opacity: 1; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.donde__subtitulo a {
+  text-decoration: none; }
+
+.donde__cards .donde__cards__descrip a {
+  text-decoration: none; }
+  .donde__cards .donde__cards__descrip a h3:hover {
+    color: #d9ad5b; }
+
+.donde__cards .donde__cards__descrip i {
+  padding: 15px;
+  font-size: 3rem;
+  color: #f5f5f5; }
+  .donde__cards .donde__cards__descrip i:hover {
+    color: #d9ad5b; }
+
+.donde__cards:hover .donde__cards__descrip {
+  opacity: .85; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.nosotros__subtitulo a {
+  text-decoration: none; }
+
+.nosotros__cards:hover .nosotros__cards__descrip {
+  opacity: 1; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* FORMULARIO */
+.section__form {
+  background-color: #0d0d0d;
+  height: auto;
+  width: 100%; }
+  .section__form form fieldset {
+    margin: 30px; }
+    .section__form form fieldset legend h3 {
+      margin-bottom: 10px;
+      margin-top: 60px; }
+    .section__form form fieldset p {
+      display: inline;
+      font-size: 2rem;
+      color: #0d0d0d;
+      font-weight: 600;
+      padding: 10px;
+      background-color: #8BE234; }
+    .section__form form fieldset .fieldset__select {
+      display: flex;
+      flex-direction: column; }
+      .section__form form fieldset .fieldset__select div {
+        margin-bottom: 30px; }
+        .section__form form fieldset .fieldset__select div select {
+          display: block;
+          width: 20%;
+          height: 30px; }
+          .section__form form fieldset .fieldset__select div select option {
+            font-size: 1.5rem; }
+    .section__form form fieldset .fieldset__info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .section__form form fieldset .fieldset__info div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px; }
+        .section__form form fieldset .fieldset__info div input {
+          width: 500px;
+          height: 30px; }
+          @media screen and (max-width: 425px) {
+            .section__form form fieldset .fieldset__info div input {
+              max-width: 200px; } }
+          @media screen and (max-width: 768px) {
+            .section__form form fieldset .fieldset__info div input {
+              max-width: 200px; } }
+      @media screen and (max-width: 425px) {
+        .section__form form fieldset .fieldset__info {
+          display: flex;
+          flex-direction: column; } }
+      @media screen and (max-width: 768px) {
+        .section__form form fieldset .fieldset__info {
+          display: flex;
+          flex-direction: column; } }
+    .section__form form fieldset .fieldset__consulta {
+      display: flex;
+      flex-direction: column; }
+      .section__form form fieldset .fieldset__consulta textarea {
+        width: 100%;
+        height: 200px; }
+    .section__form form fieldset .fieldset__check {
+      display: flex;
+      align-items: center; }
+      .section__form form fieldset .fieldset__check label {
+        padding-right: 15px; }
+  .section__form form .fieldset__enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .section__form form .fieldset__enviar input {
+      padding: 10px;
+      width: 200px;
+      background-color: #8BE234;
+      color: #0d0d0d;
+      font-family: 'Bebas Neue',cursive;
+      font-weight: 500;
+      font-size: 3rem; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* BODY INICIO GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header" "section" "main" "footer";
+  /* INDEX HEADER GRID */
+  /* ASIDE - HERO SECTION */
+  /* INDEX MAIN GRID */
+  /* FOOTER GRID */ }
+  .grid-container header {
+    grid-area: header; }
+  .grid-container aside {
+    grid-area: aside; }
+  .grid-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "section" "section" "section" "section"; }
+  .grid-container footer {
+    grid-area: footer; }
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-cerveza header {
+    grid-area: header; }
+  .grid-cerveza main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+    .grid-cerveza main section {
+      grid-area: section;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div div div" "div div div" "div div div"; }
+      @media screen and (max-width: 425px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(9, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+      @media screen and (max-width: 768px) {
+        .grid-cerveza main section {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
+  .grid-cerveza footer {
+    grid-area: footer; }
+
+/* GRID SECCION SERVICIOS */
+.grid-servicios main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div div div" "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-servicios main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GRID SECCION DONDE */
+.grid-donde main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div div" "div div" "div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-donde main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros main section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "div div div"; }
+  @media screen and (max-width: 425px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+  @media screen and (max-width: 768px) {
+    .grid-nosotros main section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "div" "div" "div"; } }
+
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.error {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d; }
+  .error img {
+    width: 500px; }
+  .error h1 {
+    margin: 15px; }
+  .error p {
+    font-family: "Montserrat", sans-serif;
+    color: #f5f5f5;
+    font-weight: 600;
+    font-size: 1.6rem; }
+  .error a {
+    background-color: #8BE234;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0d0d0d;
+    width: 200px;
+    text-align: center;
+    margin: 30px; }
+    .error a:hover {
+      color: #f5f5f5; }
+
+/* COMPONENTS */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+.subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  height: 130px;
+  width: 100%; }
+
+.subtitulo a, .cerveza__subtitulo a, .serevicios__subtitulo a, .donde__subtitulo a, .nosotros__subtitulo a {
+  color: #f5f5f5;
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 30px; }
+
+/* grid de las cards de cada seccion */
+.grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer"; }
+  .grid-servicios header, .grid-donde header, .grid-nosotros header, .grid-contacto header {
+    grid-area: header; }
+  .grid-servicios main, .grid-donde main, .grid-nosotros main, .grid-contacto main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "div" "section" "subtitulo"; }
+  .grid-servicios footer, .grid-donde footer, .grid-nosotros footer, .grid-contacto footer {
+    grid-area: footer; }
+
+.cervezas__cards, .servicios__cards, .donde__cards, .nosotros__cards {
+  position: relative; }
+  .cervezas__cards img, .servicios__cards img, .donde__cards img, .nosotros__cards img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.cervezas__cards .cervezas__cards__descrip, .servicios__cards .servicios__cards__descrip, .donde__cards .donde__cards__descrip, .nosotros__cards .nosotros__cards__descrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #0d0d0d; }
+  .cervezas__cards .cervezas__cards__descrip h3, .servicios__cards .servicios__cards__descrip h3, .donde__cards .donde__cards__descrip h3, .nosotros__cards .nosotros__cards__descrip h3 {
+    font-size: 3rem;
+    color: #f5f5f5;
+    padding: 15px 0px; }
+  .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 0px 15px;
+    text-align: center; }
+
+/* formulario */
+.section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+/* BASE */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
+/* TIPOGRAFIAS */
+/**font-family: 'Montserrat', sans-serif;**/
+/**font-family: 'Bebas Neue', cursive;**/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', cursive;
+  line-height: 0.8; }
+
+h1 {
+  font-size: 12rem;
+  font-weight: 400;
+  color: #f5f5f5; }
+
+h2 {
+  font-size: 6rem;
+  font-weight: 400;
+  color: #f5f5f5; }
+
+a span {
+  /*subtitulos de secciones*/ }
+  @media screen and (max-width: 425px) {
+    a span {
+      font-size: 5rem; } }
+
+h3 {
+  font-size: 3rem;
+  color: #f5f5f5;
+  font-weight: 200; }
+
+p {
+  font-family: 'Montserrat', sans-serif; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }

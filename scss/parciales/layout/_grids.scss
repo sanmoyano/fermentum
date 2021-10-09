@@ -1,0 +1,215 @@
+@import "../components/extend";
+@import "../utilities/vars";
+@import "../utilities/medias";
+
+/* BODY INICIO GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+        "header"
+        "section"
+        "main"
+        "footer";
+        /* INDEX HEADER GRID */
+        header {
+            grid-area: header;
+        }
+        /* ASIDE - HERO SECTION */
+        aside {
+            grid-area: aside;
+        }
+        /* INDEX MAIN GRID */
+        main {
+            grid-area: main;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4,auto);
+            grid-template-areas: 
+            "section"
+            "section"
+            "section"
+            "section";
+        }
+        /* FOOTER GRID */
+        footer {
+            grid-area: footer;
+        }
+}
+
+/* GIRD SECCION CERVEZAS */
+.grid-cerveza {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(3,auto) ;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        header {
+            grid-area: header;
+        }
+        main {
+            grid-area: main;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3,auto);
+            grid-template-areas: 
+            "div"
+            "section"
+            "subtitulo";
+            section {
+                grid-area: section;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(3,1fr);
+                grid-template-areas: 
+                "div div div"
+                "div div div"
+                "div div div";
+                @include movil {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(9,1fr);
+                    grid-template-areas: 
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div";
+                }
+                @include tablet {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(3,1fr);
+                    grid-template-areas: 
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div"
+                    "div";
+                }
+            }
+        }
+        footer {
+            grid-area: footer;
+        }
+}
+
+/* GRID SECCION SERVICIOS */
+
+.grid-servicios {
+    @extend %grid-section;
+    main {
+        section {
+            grid-area: section;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            grid-template-areas: 
+            "div div div"
+            "div div div";
+            @include movil {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6,1fr);
+                grid-template-areas: 
+                "div"
+                "div"
+                "div"
+                "div"
+                "div"
+                "div";
+            }
+            @include tablet {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6,1fr);
+                grid-template-areas: 
+                "div"
+                "div"
+                "div"
+                "div"
+                "div"
+                "div";
+            }
+        }
+    }
+}
+
+/* GRID SECCION DONDE */
+.grid-donde {
+    @extend %grid-section;
+    main {
+        section {
+            grid-area: section;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(3,1fr);
+            grid-template-areas: 
+            "div div"
+            "div div"
+            "div div";
+            @include movil {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6,1fr);
+                grid-template-areas: 
+                "div"
+                "div"
+                "div"
+                "div"
+                "div"
+                "div";
+            }
+        }
+    }
+}
+
+/* GIRD SECCION NOSOTROS */
+.grid-nosotros {
+    @extend %grid-section;
+    main {
+        section {
+            grid-area: section;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+            "div div div";
+            @include movil {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(3,1fr);
+                grid-template-areas: 
+                "div"
+                "div"
+                "div";
+            }
+            @include tablet {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(3,1fr);
+                grid-template-areas: 
+                "div"
+                "div"
+                "div";
+            }
+        }
+    }
+}
+
+
+.grid-contacto {
+    @extend %grid-section;
+}
+

@@ -1,0 +1,35 @@
+@import "../utilities/vars";
+@import "../components/extend";
+@import "../layout/grids";
+@import "../utilities/medias";
+
+.donde__subtitulo {
+    @extend %sub-title;
+    a {
+        text-decoration: none;
+        @extend %sub-title-anchor;
+    }
+}
+.donde__cards {
+    @extend %cards-sections;
+    .donde__cards__descrip {
+        @extend %cards-descrip;
+        a {
+            text-decoration: none;
+            h3:hover {
+                color: $hover;
+            }
+        }
+        i {
+            padding: 15px;
+            font-size: 3rem;
+            color: $typo-white;
+            &:hover {
+                color: $hover;
+            }
+        }
+    }
+}
+.donde__cards:hover .donde__cards__descrip {
+    opacity: .85;
+}

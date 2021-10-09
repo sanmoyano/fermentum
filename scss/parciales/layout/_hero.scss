@@ -1,0 +1,49 @@
+@import "../utilities/vars";
+@import "../utilities/medias";
+@import "../layout/grids";
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    place-items: center left;
+    background-image: url(../../imagenes/bar_05.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    .hero__div {
+        margin-left: 30px;
+        h1 {
+            font-size: 12rem;
+            font-weight: 400;
+            color: $typo-white;
+            margin-bottom: 15px;
+            margin-right: 10px;
+        }
+        p {
+            font-size: 2rem;
+            font-weight: 700;
+            color: $typo-white;
+            margin-bottom: 30px;
+        }
+        .hero__div__anchor {
+            display:flex;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            background-color: $typo-white;
+            padding: 15px;
+            &:hover {
+                background-color: $hover;
+            }
+            a{
+                font-family: $anchor-typo;
+                color: $black-bg-fmtm;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: 700;
+            }
+        }
+    } 
+}
