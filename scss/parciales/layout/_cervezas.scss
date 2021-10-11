@@ -14,8 +14,16 @@
     @extend %cards-sections;
     .cervezas__cards__descrip {
         @extend %cards-descrip;
+        .cervezas__cards__descrip__caracter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h4 {
+                padding: 15px 0px;
+            }
+        }
     }
 }
 .cervezas__cards:hover .cervezas__cards__descrip {
-    opacity: 0.85;
+    opacity: 0.9;
 }
