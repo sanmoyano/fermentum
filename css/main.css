@@ -1832,7 +1832,7 @@ nav {
   text-decoration: none; }
 
 .cervezas__cards:hover .cervezas__cards__descrip {
-  opacity: 1; }
+  opacity: 0.85; }
 
 /* COLORES FONDO */
 /* TYPO COLOR */
@@ -2140,7 +2140,7 @@ nav {
   text-decoration: none; }
 
 .servicios__cards:hover .servicios__cards__descrip {
-  opacity: 1; }
+  opacity: 0.85; }
 
 /* COLORES FONDO */
 /* TYPO COLOR */
