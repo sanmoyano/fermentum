@@ -447,7 +447,7 @@
   background-image: url(../../../imagenes/portada_hero.jpg);
   background-position: right;
   background-size: cover;
-  background-repeat: none; }
+  background-repeat: no-repeat; }
   .hero .hero__div {
     margin-left: 30px; }
     .hero .hero__div h1 {
