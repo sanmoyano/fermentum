@@ -1,33 +1,13 @@
 @import "../utilities/vars";
 
-// @media only screen and (max-width: 426px){
-//     .logo {
-//         display: none;
-//     }
-//     .comerciales img {
-//         display: none;
-//     }
-//     .donde .donde__cards {
-//         display: flex;
-//         flex-direction: column;
-//     }
-//     .nosotros img {
-//         display: none;
-//     }
-//     .section-info .section-info__horarios {
-//         display: flex;
-//         flex-direction: column;
-//     }
-// }
-
 @mixin tablet {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 769px) {
         @content; 
     }
 }
 
 @mixin movil {
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
         @content;
     }
 }

@@ -15,6 +15,11 @@
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
@@ -152,13 +157,13 @@
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -174,13 +179,13 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -194,7 +199,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -208,13 +213,13 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -237,6 +242,11 @@
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 .subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
   display: flex;
   flex-direction: column;
@@ -370,13 +380,13 @@
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -392,13 +402,13 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -412,7 +422,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -426,13 +436,13 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -456,11 +466,13 @@
       color: #f5f5f5;
       margin-bottom: 15px;
       margin-right: 10px; }
-    .hero .hero__div p {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #f5f5f5;
-      margin-bottom: 30px; }
+    .hero .hero__div .hero_div_p {
+      width: 100%; }
+      .hero .hero__div .hero_div_p p {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #f5f5f5;
+        margin-bottom: 30px; }
     .hero .hero__div .hero__div__anchor {
       display: flex;
       width: 50%;
@@ -507,7 +519,7 @@ h2 {
 
 a span {
   /*subtitulos de secciones*/ }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     a span {
       font-size: 5rem; } }
 
@@ -524,6 +536,11 @@ h4 {
 p {
   font-family: 'Montserrat', sans-serif; }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -667,13 +684,13 @@ p {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -689,13 +706,13 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -709,7 +726,7 @@ p {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -723,13 +740,13 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -775,7 +792,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     margin: 15px; }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
       .section-info .section-info__horarios {
         display: flex;
         flex-direction: column; } }
@@ -817,6 +834,11 @@ p {
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 .subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
   display: flex;
   flex-direction: column;
@@ -950,13 +972,13 @@ p {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -972,13 +994,13 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -992,7 +1014,7 @@ p {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -1006,13 +1028,13 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -1026,7 +1048,7 @@ nav {
   nav .container-fluid {
     padding-left: 0px;
     padding-right: 0px; }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
       nav .container-fluid {
         display: flex;
         justify-content: center; } }
@@ -1037,16 +1059,16 @@ nav {
       padding: 0px; }
     nav .container-fluid button img {
       margin: 30px; }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
       nav .container-fluid a.nav-link {
         margin: 0px 30px; } }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 769px) {
       nav .container-fluid a.nav-link {
         margin: 0px 30px; } }
   nav div a img {
     width: 150px;
     margin: 0px 30px; }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
       nav div a img {
         display: none; } }
   nav ul {
@@ -1057,10 +1079,10 @@ nav {
     text-transform: uppercase; }
     nav ul .inicio {
       display: none; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         nav ul .inicio {
           display: flex; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         nav ul .inicio {
           display: flex; } }
 
@@ -1085,10 +1107,10 @@ nav {
   height: 120px;
   padding: 30px;
   width: auto; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .tienda {
       order: 0; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .tienda {
       order: 0; } }
   .tienda .tienda__anchor {
@@ -1119,6 +1141,11 @@ nav {
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 .subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
   display: flex;
   flex-direction: column;
@@ -1252,13 +1279,13 @@ nav {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -1274,13 +1301,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -1294,7 +1321,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -1308,19 +1335,24 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -1455,10 +1487,10 @@ nav {
   .comerciales img {
     width: 50%;
     margin-left: 0px 30px; }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
       .comerciales img {
         display: none; } }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 769px) {
       .comerciales img {
         display: none; } }
 
@@ -1481,7 +1513,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-template-areas: "div div"; }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
       .donde .donde__grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -1524,13 +1556,18 @@ nav {
     width: 50%;
     margin-left: 0px 30px;
     padding: 30px; }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
       .nosotros img {
         display: none; } }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 769px) {
       .nosotros img {
         display: none; } }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -1621,6 +1658,11 @@ nav {
   padding-bottom: 10px;
   padding-top: 10px; }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -1759,13 +1801,13 @@ nav {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -1781,13 +1823,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -1801,7 +1843,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -1815,13 +1857,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -1856,6 +1898,11 @@ nav {
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 .subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
   display: flex;
   flex-direction: column;
@@ -1989,13 +2036,13 @@ nav {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -2011,13 +2058,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -2031,7 +2078,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -2045,19 +2092,24 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -2164,6 +2216,11 @@ nav {
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 .subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
   display: flex;
   flex-direction: column;
@@ -2244,6 +2301,11 @@ nav {
   padding-bottom: 10px;
   padding-top: 10px; }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -2382,13 +2444,13 @@ nav {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -2404,13 +2466,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -2424,7 +2486,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -2438,13 +2500,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -2484,6 +2546,11 @@ nav {
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 .subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
   display: flex;
   flex-direction: column;
@@ -2617,13 +2684,13 @@ nav {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -2639,13 +2706,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -2659,7 +2726,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -2673,19 +2740,24 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -2792,6 +2864,11 @@ nav {
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 .subtitulo, .cerveza__subtitulo, .serevicios__subtitulo, .donde__subtitulo, .nosotros__subtitulo {
   display: flex;
   flex-direction: column;
@@ -2872,6 +2949,11 @@ nav {
   padding-bottom: 10px;
   padding-top: 10px; }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -3010,13 +3092,13 @@ nav {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -3032,13 +3114,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -3052,7 +3134,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -3066,13 +3148,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -3123,17 +3205,17 @@ nav {
         .section__form form fieldset .fieldset__info div input {
           width: 500px;
           height: 30px; }
-          @media screen and (max-width: 425px) {
+          @media screen and (max-width: 426px) {
             .section__form form fieldset .fieldset__info div input {
               max-width: 200px; } }
-          @media screen and (max-width: 768px) {
+          @media screen and (max-width: 769px) {
             .section__form form fieldset .fieldset__info div input {
               max-width: 200px; } }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .section__form form fieldset .fieldset__info {
           display: flex;
           flex-direction: column; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .section__form form fieldset .fieldset__info {
           display: flex;
           flex-direction: column; } }
@@ -3161,6 +3243,11 @@ nav {
       font-weight: 500;
       font-size: 3rem; }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -3251,6 +3338,11 @@ nav {
   padding-bottom: 10px;
   padding-top: 10px; }
 
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -3389,13 +3481,13 @@ nav {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div div div" "div div div" "div div div"; }
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 426px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(9, 1fr);
           grid-template-areas: "div" "div" "div" "div" "div" "div" "div" "div" "div"; } }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 769px) {
         .grid-cerveza main section {
           display: grid;
           grid-template-columns: 1fr;
@@ -3411,13 +3503,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div div div" "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 1fr);
       grid-template-areas: "div" "div" "div" "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-servicios main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -3431,7 +3523,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "div div" "div div" "div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-donde main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -3445,13 +3537,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "div div div"; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     .grid-nosotros main section {
       display: grid;
       grid-template-columns: 1fr;
@@ -3495,6 +3587,11 @@ nav {
       color: #f5f5f5; }
 
 /* COMPONENTS */
+/* COLORES FONDO */
+/* TYPO COLOR */
+/* TIPOGRAFIAS DEFINIDAS */
+/* ALTURA BACK SUBTITULOS */
+/* MARGENES */
 /* COLORES FONDO */
 /* TYPO COLOR */
 /* TIPOGRAFIAS DEFINIDAS */
@@ -3605,7 +3702,7 @@ h2 {
 
 a span {
   /*subtitulos de secciones*/ }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 426px) {
     a span {
       font-size: 5rem; } }
 
