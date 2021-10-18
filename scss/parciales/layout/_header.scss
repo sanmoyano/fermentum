@@ -5,10 +5,11 @@
 /* HEADER NAVBAR - componentes de bootstrap */
 nav {
     background-color: $black-bg-fmtm;
-    height: 120px;
+    height: 130px;
     .container-fluid {
         padding-left: 0px;
         padding-right: 0px;
+        height: 100%;
         @include mobil {
             display: flex;
             justify-content: center;
@@ -82,11 +83,12 @@ nav {
     display: flex;
     order: 1;
     flex-wrap: nowrap;
-    height: 120px;
+    height: 100%;
     padding: 30px;
     width: auto;
     @include mobil {
         order: 0;
+        padding: 50px;
     }
     @include tablet {
         order: 0;
@@ -101,6 +103,9 @@ nav {
         text-transform: uppercase;
         text-decoration: none;
         color: $typo-white;
+        @include mobil {
+            font-size: 2rem;
+        }
         i {
             font-size: 3.2rem;
             text-align: center;
