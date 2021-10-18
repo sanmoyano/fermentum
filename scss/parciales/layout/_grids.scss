@@ -68,7 +68,7 @@
                 "div div div"
                 "div div div"
                 "div div div";
-                @include movil {
+                @include mobil {
                     display: grid;
                     grid-template-columns: 1fr;
                     grid-template-rows: repeat(9,1fr);
@@ -118,7 +118,7 @@
             grid-template-areas: 
             "div div div"
             "div div div";
-            @include movil {
+            @include mobil {
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: repeat(6,1fr);
@@ -159,7 +159,7 @@
             "div div"
             "div div"
             "div div";
-            @include movil {
+            @include mobil {
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: repeat(6,1fr);
@@ -186,7 +186,7 @@
             grid-template-rows: 1fr;
             grid-template-areas: 
             "div div div";
-            @include movil {
+            @include mobil {
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: repeat(3,1fr);

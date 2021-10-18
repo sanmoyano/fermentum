@@ -50,7 +50,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin: 15px;
-        @include movil {
+        @include mobil {
             display: flex;
             flex-direction: column;
         }

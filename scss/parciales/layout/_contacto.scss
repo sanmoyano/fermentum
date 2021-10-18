@@ -57,7 +57,7 @@
                     input {
                         width: 500px;
                         height: 30px;
-                        @include movil {
+                        @include mobil {
                             max-width: 200px;
                         }
                         @include tablet {
@@ -65,7 +65,7 @@
                         }
                     }
                 }
-                @include movil {
+                @include mobil {
                     display: flex;
                     flex-direction: column;
                 }

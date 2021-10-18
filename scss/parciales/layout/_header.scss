@@ -9,7 +9,7 @@ nav {
     .container-fluid {
         padding-left: 0px;
         padding-right: 0px;
-        @include movil {
+        @include mobil {
             display: flex;
             justify-content: center;
         }
@@ -51,7 +51,7 @@ nav {
         text-transform: uppercase;
         .inicio {
             display: none;
-            @include movil {
+            @include mobil {
                 display: flex;
             }
             @include tablet {
@@ -84,7 +84,7 @@ nav {
     height: 120px;
     padding: 30px;
     width: auto;
-    @include movil {
+    @include mobil {
         order: 0;
     }
     @include tablet {

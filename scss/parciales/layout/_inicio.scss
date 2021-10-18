@@ -61,7 +61,7 @@
     img {
         width: 50%;
         margin-left: $subtitulos-margin;
-        @include movil {
+        @include mobil {
             display: none;
         }
         @include tablet {
@@ -93,7 +93,7 @@
         grid-template-rows: 1fr;
         grid-template-areas: 
         "div div";
-        @include movil {
+        @include mobil {
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(2,1fr);
@@ -147,7 +147,7 @@
         width: 50%;
         margin-left: $subtitulos-margin;
         padding: 30px;
-        @include movil {
+        @include mobil {
             display: none;
         }
         @include tablet {
