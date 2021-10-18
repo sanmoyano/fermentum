@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: nowrap;
     place-items: center left;
-    background-image: url(../../../imagenes/portada_hero.jpg);
+    background-image: url(../../../imagenes/portadaHero.jpg);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
         margin-left: 30px;
         h1 {
             font-size: 12rem;
-            font-weight: 400;
+            font-weight: 400;   
             color: $typo-white;
             margin-bottom: 15px;
             margin-right: 10px;
