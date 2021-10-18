@@ -20,11 +20,14 @@
             margin-bottom: 15px;
             margin-right: 10px;
         }
-        p {
-            font-size: 2rem;
-            font-weight: 700;
-            color: $typo-white;
-            margin-bottom: 30px;
+        .hero_div_p {
+            width: 100%;
+            p {
+                font-size: 2rem;
+                font-weight: 700;
+                color: $typo-white;
+                margin-bottom: 30px;
+            }
         }
         .hero__div__anchor {
             display:flex;
