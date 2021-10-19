@@ -46,7 +46,7 @@
             padding: 15px;
             margin-bottom: 30px;
             @include desktop {
-                width: 50%;
+                width: 30%;
             }
             &:hover {
                 background-color: $hover;
@@ -134,7 +134,7 @@
             padding: 15px;
             margin-bottom: 30px;
             @include desktop {
-                width: 50%;
+                width: 30%;
             }
             &:hover {
                 background-color: $hover;

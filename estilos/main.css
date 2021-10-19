@@ -495,7 +495,7 @@
       padding: 15px; }
       @media screen and (min-width: 1024px) {
         .hero .hero__div .hero__div__anchor {
-          width: 50%; } }
+          width: 30%; } }
       .hero .hero__div .hero__div__anchor:hover {
         background-color: #d9ad5b; }
       .hero .hero__div .hero__div__anchor a {
@@ -1521,7 +1521,7 @@ nav {
       margin-bottom: 30px; }
       @media screen and (min-width: 1024px) {
         .comerciales .comerciales__div .comerciales__div__anchor {
-          width: 50%; } }
+          width: 30%; } }
       .comerciales .comerciales__div .comerciales__div__anchor:hover {
         background-color: #d9ad5b; }
       .comerciales .comerciales__div .comerciales__div__anchor a {
@@ -1592,7 +1592,7 @@ nav {
       margin-bottom: 30px; }
       @media screen and (min-width: 1024px) {
         .nosotros .nosotros__div .nosotros__div__anchor {
-          width: 50%; } }
+          width: 30%; } }
       .nosotros .nosotros__div .nosotros__div__anchor:hover {
         background-color: #d9ad5b; }
       .nosotros .nosotros__div .nosotros__div__anchor a {
