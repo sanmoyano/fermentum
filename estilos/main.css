@@ -1086,7 +1086,7 @@ nav {
   nav .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
-    height: 100%; }
+    height: auto; }
     @media screen and (max-width: 426px) {
       nav .container-fluid {
         display: flex;
@@ -1097,7 +1097,7 @@ nav {
       margin: 0px;
       padding: 0px; }
     nav .container-fluid button span img {
-      margin: 30px;
+      margin: 25px;
       width: 30px; }
     @media screen and (max-width: 426px) {
       nav .container-fluid a.nav-link {

@@ -10,7 +10,7 @@ nav {
     .container-fluid {
         padding-left: 0px;
         padding-right: 0px;
-        height: 100%;
+        height: auto;
         @include mobil {
             display: flex;
             justify-content: center;
@@ -24,7 +24,7 @@ nav {
         }
         button {
             span img {
-                margin: 30px;
+                margin: 25px;
                 width: 30px;
             }
         }
