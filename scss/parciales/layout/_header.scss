@@ -5,7 +5,7 @@
 /* HEADER NAVBAR - componentes de bootstrap */
 nav {
     background-color: $black-bg-fmtm;
-    height: 130px;
+    height: auto;
     width: 1fr;
     .container-fluid {
         padding-left: 0px;
@@ -83,8 +83,7 @@ nav {
     background-color: $ligthgrey-bg-fmtm;
     display: flex;
     order: 1;
-    height: 100%;
-    padding: 20px;
+    padding: 30px;
     @include mobil {
         order: 0;
     }

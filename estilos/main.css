@@ -1081,7 +1081,7 @@ p {
 /* HEADER NAVBAR - componentes de bootstrap */
 nav {
   background-color: #0d0d0d;
-  height: 130px;
+  height: auto;
   width: 1fr; }
   nav .container-fluid {
     padding-left: 0px;
@@ -1143,8 +1143,7 @@ nav {
   background-color: #2d2d2d;
   display: flex;
   order: 1;
-  height: 100%;
-  padding: 20px; }
+  padding: 30px; }
   @media screen and (max-width: 426px) {
     .tienda {
       order: 0; } }
