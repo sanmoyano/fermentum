@@ -12,13 +12,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     .hero__div {
-        margin-left: 30px;
+        margin: 30px;
         h1 {
             font-size: 12rem;
             font-weight: 400;   
             color: $typo-white;
             margin-bottom: 15px;
             margin-right: 10px;
+            @include mobil {
+                font-size: 7rem;
+            }
         }
         .hero_div_p {
             width: 100%;
@@ -29,15 +32,20 @@
                 margin-bottom: 15px;
                 margin-top: 15px;
                 margin-right: 10px;
+                @include mobil {
+                    font-size: 1.6rem;
+                }
             }
         }
         .hero__div__anchor {
             display:flex;
-            width: 50%;
             align-items: center;
             justify-content: center;
             background-color: $typo-white;
             padding: 15px;
+            @include desktop {
+                width: 50%;
+            }
             &:hover {
                 background-color: $hover;
             }

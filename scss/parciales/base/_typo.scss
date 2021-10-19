@@ -18,6 +18,9 @@ h2{
     font-size: 6rem;
     font-weight: 400;
     color: $typo-white;
+    @include mobil {
+        font-size: 5rem;
+    }
 }
 a span { /*subtitulos de secciones*/
     @include mobil {

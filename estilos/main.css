@@ -40,7 +40,7 @@
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -263,7 +263,7 @@
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -459,13 +459,16 @@
   background-size: cover;
   background-repeat: no-repeat; }
   .hero .hero__div {
-    margin-left: 30px; }
+    margin: 30px; }
     .hero .hero__div h1 {
       font-size: 12rem;
       font-weight: 400;
       color: #f5f5f5;
       margin-bottom: 15px;
       margin-right: 10px; }
+      @media screen and (max-width: 426px) {
+        .hero .hero__div h1 {
+          font-size: 7rem; } }
     .hero .hero__div .hero_div_p {
       width: 100%; }
       .hero .hero__div .hero_div_p p {
@@ -475,13 +478,18 @@
         margin-bottom: 15px;
         margin-top: 15px;
         margin-right: 10px; }
+        @media screen and (max-width: 426px) {
+          .hero .hero__div .hero_div_p p {
+            font-size: 1.6rem; } }
     .hero .hero__div .hero__div__anchor {
       display: flex;
-      width: 50%;
       align-items: center;
       justify-content: center;
       background-color: #f5f5f5;
       padding: 15px; }
+      @media screen and (min-width: 1024px) {
+        .hero .hero__div .hero__div__anchor {
+          width: 50%; } }
       .hero .hero__div .hero__div__anchor:hover {
         background-color: #d9ad5b; }
       .hero .hero__div .hero__div__anchor a {
@@ -518,6 +526,9 @@ h2 {
   font-size: 6rem;
   font-weight: 400;
   color: #f5f5f5; }
+  @media screen and (max-width: 426px) {
+    h2 {
+      font-size: 5rem; } }
 
 a span {
   /*subtitulos de secciones*/ }
@@ -569,7 +580,7 @@ p {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -786,9 +797,21 @@ p {
   display: flex;
   flex-direction: column;
   background-color: #0d0d0d; }
-  .section-info div img {
-    height: 100px;
-    margin: 30px; }
+  .section-info .section-info__logo {
+    display: flex;
+    flex-direction: column; }
+    @media screen and (max-width: 426px) {
+      .section-info .section-info__logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
+    .section-info .section-info__logo img {
+      height: 100px;
+      margin: 30px; }
+      @media screen and (max-width: 426px) {
+        .section-info .section-info__logo img {
+          height: 50px; } }
   .section-info .section-info__horarios {
     display: flex;
     flex-direction: row;
@@ -857,7 +880,7 @@ p {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -1046,7 +1069,8 @@ p {
 /* HEADER NAVBAR - componentes de bootstrap */
 nav {
   background-color: #0d0d0d;
-  height: 130px; }
+  height: 130px;
+  width: 1fr; }
   nav .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
@@ -1107,14 +1131,11 @@ nav {
   background-color: #2d2d2d;
   display: flex;
   order: 1;
-  flex-wrap: nowrap;
   height: 100%;
-  padding: 30px;
-  width: auto; }
+  padding: 20px; }
   @media screen and (max-width: 426px) {
     .tienda {
-      order: 0;
-      padding: 50px; } }
+      order: 0; } }
   @media screen and (max-width: 769px) {
     .tienda {
       order: 0; } }
@@ -1170,7 +1191,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -1382,7 +1403,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -1471,18 +1492,21 @@ nav {
     .comerciales .comerciales__div h2 {
       margin: 30px 0px; }
     .comerciales .comerciales__div p {
-      font-size: 2rem;
+      font-size: 1.6rem;
       font-weight: 400;
       color: #f5f5f5;
       margin-bottom: 30px; }
     .comerciales .comerciales__div .comerciales__div__anchor {
       display: flex;
-      width: 50%;
+      width: 100%;
       align-items: center;
       justify-content: center;
       background-color: #f5f5f5;
       padding: 15px;
       margin-bottom: 30px; }
+      @media screen and (min-width: 1024px) {
+        .comerciales .comerciales__div .comerciales__div__anchor {
+          width: 50%; } }
       .comerciales .comerciales__div .comerciales__div__anchor:hover {
         background-color: #d9ad5b; }
       .comerciales .comerciales__div .comerciales__div__anchor a {
@@ -1538,19 +1562,22 @@ nav {
     .nosotros .nosotros__div h2 {
       margin: 30px 0px; }
     .nosotros .nosotros__div p {
-      font-size: 2rem;
+      font-size: 1.6rem;
       font-weight: 400;
       color: #f5f5f5;
       margin-bottom: 30px;
       margin-top: 30px; }
     .nosotros .nosotros__div .nosotros__div__anchor {
       display: flex;
-      width: 50%;
+      width: 100%;
       align-items: center;
       justify-content: center;
       background-color: #f5f5f5;
       padding: 15px;
       margin-bottom: 30px; }
+      @media screen and (min-width: 1024px) {
+        .nosotros .nosotros__div .nosotros__div__anchor {
+          width: 50%; } }
       .nosotros .nosotros__div .nosotros__div__anchor:hover {
         background-color: #d9ad5b; }
       .nosotros .nosotros__div .nosotros__div__anchor a {
@@ -1602,7 +1629,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -1692,7 +1719,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -1927,7 +1954,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -2139,7 +2166,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -2245,7 +2272,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -2335,7 +2362,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -2575,7 +2602,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -2787,7 +2814,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -2893,7 +2920,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -2983,7 +3010,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -3282,7 +3309,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -3372,7 +3399,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -3621,7 +3648,7 @@ nav {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   line-height: 0.8;
-  margin: 30px; }
+  margin: 10px; }
 
 /* grid de las cards de cada seccion */
 .grid-servicios, .grid-donde, .grid-nosotros, .grid-contacto {
@@ -3707,6 +3734,9 @@ h2 {
   font-size: 6rem;
   font-weight: 400;
   color: #f5f5f5; }
+  @media screen and (max-width: 426px) {
+    h2 {
+      font-size: 5rem; } }
 
 a span {
   /*subtitulos de secciones*/ }

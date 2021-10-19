@@ -1,5 +1,10 @@
 @import "../utilities/vars";
 
+@mixin desktop {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
 @mixin tablet {
     @media screen and (max-width: 769px) {
         @content; 

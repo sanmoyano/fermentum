@@ -32,19 +32,22 @@
             margin: 30px 0px;
         }
         p {
-            font-size: 2rem;
+            font-size: 1.6rem;
             font-weight: 400;
             color: $typo-white;
             margin-bottom: 30px;
         }
         .comerciales__div__anchor {
             display:flex;
-            width: 50%;
+            width: 100%;
             align-items: center;
             justify-content: center;
             background-color: $typo-white;
             padding: 15px;
             margin-bottom: 30px;
+            @include desktop {
+                width: 50%;
+            }
             &:hover {
                 background-color: $hover;
             }
@@ -115,7 +118,7 @@
             margin: 30px 0px;
         }
         p {
-            font-size: 2rem;
+            font-size: 1.6rem;
             font-weight: 400;
             color: $typo-white;
             margin-bottom: 30px;
@@ -124,12 +127,15 @@
         }
         .nosotros__div__anchor {
             display:flex;
-            width: 50%;
+            width: 100%;
             align-items: center;
             justify-content: center;
             background-color: $typo-white;
             padding: 15px;
             margin-bottom: 30px;
+            @include desktop {
+                width: 50%;
+            }
             &:hover {
                 background-color: $hover;
             }

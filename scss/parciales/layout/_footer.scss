@@ -41,9 +41,22 @@
     display: flex;
     flex-direction: column;
     background-color: $black-bg-fmtm;
-    div img {
-        height: 100px;
-        margin: 30px;
+    .section-info__logo {
+        display: flex;
+        flex-direction: column;
+        @include mobil {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            height: 100px;
+            margin: 30px;
+            @include mobil {
+                height: 50px;
+            }
+        }
     }
     .section-info__horarios {
         display: flex;
