@@ -18,12 +18,16 @@
                 }
             }
             p {
+                width: 100%;
                 display: inline;
-                font-size: 2rem;
+                font-size: 1.6rem;
                 color: $black-bg-fmtm;
                 font-weight: 600;
-                padding: 10px;
+                padding: 5px;
                 background-color: #8BE234;
+                @include mobil {
+                    font-size: 1.4rem;
+                }
             }
             .fieldset__select {
                 display: flex;

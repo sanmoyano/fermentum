@@ -88,11 +88,14 @@
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -311,11 +314,14 @@
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -628,11 +634,14 @@ p {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -928,11 +937,14 @@ p {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -1149,9 +1161,6 @@ nav {
     text-transform: uppercase;
     text-decoration: none;
     color: #f5f5f5; }
-    @media screen and (max-width: 426px) {
-      .tienda .tienda__anchor {
-        font-size: 2rem; } }
     .tienda .tienda__anchor i {
       font-size: 3.2rem;
       text-align: center;
@@ -1239,11 +1248,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -1451,11 +1463,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -1677,11 +1692,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -1767,11 +1785,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -2002,11 +2023,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -2214,11 +2238,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -2320,11 +2347,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -2410,11 +2440,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -2650,11 +2683,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -2862,11 +2898,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -2887,7 +2926,7 @@ nav {
   text-decoration: none; }
 
 .nosotros__cards:hover .nosotros__cards__descrip {
-  opacity: 1; }
+  opacity: .85; }
 
 /* COLORES FONDO */
 /* TYPO COLOR */
@@ -2968,11 +3007,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -3058,11 +3100,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -3212,12 +3257,16 @@ nav {
       margin-bottom: 10px;
       margin-top: 60px; }
     .section__form form fieldset p {
+      width: 100%;
       display: inline;
-      font-size: 2rem;
+      font-size: 1.6rem;
       color: #0d0d0d;
       font-weight: 600;
-      padding: 10px;
+      padding: 5px;
       background-color: #8BE234; }
+      @media screen and (max-width: 426px) {
+        .section__form form fieldset p {
+          font-size: 1.4rem; } }
     .section__form form fieldset .fieldset__select {
       display: flex;
       flex-direction: column; }
@@ -3357,11 +3406,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -3447,11 +3499,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {
@@ -3696,11 +3751,14 @@ nav {
     color: #f5f5f5;
     padding: 15px 0px; }
   .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #f5f5f5;
     width: 100%;
     padding: 0px 15px;
     text-align: center; }
+    @media screen and (max-width: 426px) {
+      .cervezas__cards .cervezas__cards__descrip p, .servicios__cards .servicios__cards__descrip p, .donde__cards .donde__cards__descrip p, .nosotros__cards .nosotros__cards__descrip p {
+        font-size: 1.4rem; } }
 
 /* formulario */
 .section__form form fieldset .fieldset__select div label, .section__form form fieldset .fieldset__info div label, .section__form form fieldset .fieldset__consulta label, .section__form form fieldset .fieldset__check label {

@@ -101,9 +101,6 @@ nav {
         text-transform: uppercase;
         text-decoration: none;
         color: $typo-white;
-        @include mobil {
-            font-size: 2rem;
-        }
         i {
             font-size: 3.2rem;
             text-align: center;
