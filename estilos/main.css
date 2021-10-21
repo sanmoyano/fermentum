@@ -882,7 +882,7 @@ p {
       margin: 30px; }
       @media screen and (max-width: 426px) {
         .section-info .section-info__logo img {
-          height: 50px; } }
+          height: 45px; } }
   .section-info .section-info__horarios {
     display: flex;
     flex-direction: row;
