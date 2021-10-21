@@ -100,4 +100,7 @@
 
 .carousel-indicators {
     margin-bottom: 12rem;
+    @include mobil {
+        margin-bottom: 2rem;
+    }
 }

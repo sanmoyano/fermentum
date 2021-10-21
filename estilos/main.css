@@ -537,6 +537,9 @@
 
 .carousel-indicators {
   margin-bottom: 12rem; }
+  @media screen and (max-width: 426px) {
+    .carousel-indicators {
+      margin-bottom: 2rem; } }
 
 /* COLORES FONDO */
 /* TYPO COLOR */
@@ -1541,7 +1544,9 @@ nav {
       font-size: 1.6rem;
       font-weight: 400;
       color: #f5f5f5;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      text-align: justify;
+      text-justify: inter-word; }
     .comerciales .comerciales__div .comerciales__div__anchor {
       display: flex;
       width: 100%;
@@ -1612,7 +1617,9 @@ nav {
       font-weight: 400;
       color: #f5f5f5;
       margin-bottom: 30px;
-      margin-top: 30px; }
+      margin-top: 30px;
+      text-align: justify;
+      text-justify: inter-word; }
     .nosotros .nosotros__div .nosotros__div__anchor {
       display: flex;
       width: 100%;
