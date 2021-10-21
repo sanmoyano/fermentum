@@ -64,7 +64,7 @@
             font-weight: 700;
         }
     }
-    .hero__div__anchor_botellas {
+    .hero__div__anchor__botellas {
         position: relative;
         display:flex;
         align-items: center;
@@ -88,11 +88,16 @@
     }
     
 }
-button {
-    .carousel-control-prev-icon {
-        background-image: url()
+
+.carousel-control-prev, .carousel-control-next {
+    color: $typo-white;
+    opacity: 1;
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
     }
-    .carousel-control-next-icon {
-        background-image: url()
-    }
+}
+
+.carousel-indicators {
+    margin-bottom: 12rem;
 }
