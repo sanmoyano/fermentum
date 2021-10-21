@@ -8,11 +8,31 @@
         object-position: bottom;
         height: 100vh;
         overflow: hidden;
+        @include mobil {
+            height: auto;
+        }
     }
     .carousel-caption {
         text-align: left;
-        bottom: 50%;
+        bottom: 30%;
         left: 200px;
+        @include mobil {
+        }
+        .botellas_hero {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            h1 {
+                background-color: $black-bg-fmtm;
+                display: inline-block;
+                padding: 10px 100px 10px 10px;
+            }
+            p {
+                background-color: $black-bg-fmtm;
+                display: inline-block;
+                padding: 10px 10px 10px 10px;
+            }
+        }
         p {
             font-size: 2rem;
             font-weight: 700;
@@ -22,6 +42,29 @@
             margin-right: 10px;
         }
     }
+    .hero__div__anchor {
+        position: relative;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $typo-white;
+        padding: 15px;
+        @include desktop {
+            width: 30%;
+        }
+        &:hover {
+            background-color: $hover;
+        }
+        a{
+            font-family: $anchor-typo;
+            color: $black-bg-fmtm;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+    }
+    
 }
 
 .hero {
@@ -60,6 +103,7 @@
             }
         }
         .hero__div__anchor {
+            position: relative;
             display:flex;
             align-items: center;
             justify-content: center;
