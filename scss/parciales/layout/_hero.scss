@@ -15,7 +15,7 @@
     .carousel-caption {
         text-align: left;
         bottom: 30%;
-        left: 200px;
+        left: 150px;
         @include mobil {
         }
         .botellas_hero {
@@ -25,12 +25,12 @@
             h1 {
                 background-color: $black-bg-fmtm;
                 display: inline-block;
-                padding: 10px 100px 10px 10px;
+                padding: 10px;
             }
             p {
                 background-color: $black-bg-fmtm;
                 display: inline-block;
-                padding: 10px 10px 10px 10px;
+                padding: 10px;
             }
         }
         p {
@@ -64,65 +64,35 @@
             font-weight: 700;
         }
     }
+    .hero__div__anchor_botellas {
+        position: relative;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $hover;
+        padding: 15px;
+        @include desktop {
+            width: 30%;
+        }
+        &:hover {
+            background-color: $typo-white;
+        }
+        a{
+            font-family: $anchor-typo;
+            color: $black-bg-fmtm;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+    }
     
 }
-
-.hero {
-    height: 100vh;
-    display: flex;
-    flex-wrap: nowrap;
-    place-items: center left;
-    background-image: url(../../../imagenes/portada_hero1.jpg);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    .hero__div {
-        margin: 30px;
-        h1 {
-            font-size: 12rem;
-            font-weight: 400;   
-            color: $typo-white;
-            margin-bottom: 15px;
-            margin-right: 10px;
-            @include mobil {
-                font-size: 7rem;
-            }
-        }
-        .hero_div_p {
-            width: 100%;
-            p {
-                font-size: 2rem;
-                font-weight: 700;
-                color: $typo-white;
-                margin-bottom: 15px;
-                margin-top: 15px;
-                margin-right: 10px;
-                @include mobil {
-                    font-size: 1.6rem;
-                }
-            }
-        }
-        .hero__div__anchor {
-            position: relative;
-            display:flex;
-            align-items: center;
-            justify-content: center;
-            background-color: $typo-white;
-            padding: 15px;
-            @include desktop {
-                width: 30%;
-            }
-            &:hover {
-                background-color: $hover;
-            }
-            a{
-                font-family: $anchor-typo;
-                color: $black-bg-fmtm;
-                text-transform: uppercase;
-                text-decoration: none;
-                font-size: 1.6rem;
-                font-weight: 700;
-            }
-        }
-    } 
+button {
+    .carousel-control-prev-icon {
+        background-image: url(../../../icons/2x/sharp_chevron_left_white_24dp.png)
+    }
+    .carousel-control-next-icon {
+        background-image: url(../../../icons/2x/sharp_chevron_right_white_48dp.png);
+    }
 }

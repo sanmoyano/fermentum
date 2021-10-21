@@ -467,7 +467,7 @@
 .carousel-item .carousel-caption {
   text-align: left;
   bottom: 30%;
-  left: 200px; }
+  left: 150px; }
   .carousel-item .carousel-caption .botellas_hero {
     display: flex;
     flex-direction: column;
@@ -475,11 +475,11 @@
     .carousel-item .carousel-caption .botellas_hero h1 {
       background-color: #0d0d0d;
       display: inline-block;
-      padding: 10px 100px 10px 10px; }
+      padding: 10px; }
     .carousel-item .carousel-caption .botellas_hero p {
       background-color: #0d0d0d;
       display: inline-block;
-      padding: 10px 10px 10px 10px; }
+      padding: 10px; }
   .carousel-item .carousel-caption p {
     font-size: 2rem;
     font-weight: 700;
@@ -508,57 +508,31 @@
     font-size: 1.6rem;
     font-weight: 700; }
 
-.hero {
-  height: 100vh;
+.carousel-item .hero__div__anchor_botellas {
+  position: relative;
   display: flex;
-  flex-wrap: nowrap;
-  place-items: center left;
-  background-image: url(../../../imagenes/portada_hero1.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .hero .hero__div {
-    margin: 30px; }
-    .hero .hero__div h1 {
-      font-size: 12rem;
-      font-weight: 400;
-      color: #f5f5f5;
-      margin-bottom: 15px;
-      margin-right: 10px; }
-      @media screen and (max-width: 426px) {
-        .hero .hero__div h1 {
-          font-size: 7rem; } }
-    .hero .hero__div .hero_div_p {
-      width: 100%; }
-      .hero .hero__div .hero_div_p p {
-        font-size: 2rem;
-        font-weight: 700;
-        color: #f5f5f5;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        margin-right: 10px; }
-        @media screen and (max-width: 426px) {
-          .hero .hero__div .hero_div_p p {
-            font-size: 1.6rem; } }
-    .hero .hero__div .hero__div__anchor {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #f5f5f5;
-      padding: 15px; }
-      @media screen and (min-width: 1024px) {
-        .hero .hero__div .hero__div__anchor {
-          width: 30%; } }
-      .hero .hero__div .hero__div__anchor:hover {
-        background-color: #d9ad5b; }
-      .hero .hero__div .hero__div__anchor a {
-        font-family: "Montserrat", sans-serif;
-        color: #0d0d0d;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-size: 1.6rem;
-        font-weight: 700; }
+  align-items: center;
+  justify-content: center;
+  background-color: #d9ad5b;
+  padding: 15px; }
+  @media screen and (min-width: 1024px) {
+    .carousel-item .hero__div__anchor_botellas {
+      width: 30%; } }
+  .carousel-item .hero__div__anchor_botellas:hover {
+    background-color: #f5f5f5; }
+  .carousel-item .hero__div__anchor_botellas a {
+    font-family: "Montserrat", sans-serif;
+    color: #0d0d0d;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700; }
+
+button .carousel-control-prev-icon {
+  background-image: url(../../../icons/2x/sharp_chevron_left_white_24dp.png); }
+
+button .carousel-control-next-icon {
+  background-image: url(../../../icons/2x/sharp_chevron_right_white_48dp.png); }
 
 /* COLORES FONDO */
 /* TYPO COLOR */
