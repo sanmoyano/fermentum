@@ -2,21 +2,32 @@
 @import "../utilities/medias";
 @import "../layout/grids";
 
+.carousel-inner {
+    .d-none {
+        @include mobil {
+            display: flex !important;
+        }
+    }
+}
+.carousel-indicators {
+    @include mobil {
+        margin-bottom: 15rem;
+    }
+}
 .carousel-item {
     img {
         object-fit: cover;
         object-position: bottom;
         height: 100vh;
         overflow: hidden;
-        @include mobil {
-            height: auto;
-        }
     }
     .carousel-caption {
         text-align: left;
-        bottom: 30%;
-        left: 150px;
+        bottom: 45%;
+        left: 180px;
         @include mobil {
+            left: 2rem;
+            bottom: 60%;
         }
         .botellas_hero {
             display: flex;
@@ -31,6 +42,20 @@
                 background-color: $black-bg-fmtm;
                 display: inline-block;
                 padding: 10px;
+                @include mobil {
+                    display: none;
+                }
+            }
+            span {
+                display: none;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                color: $black-bg-fmtm;
+                font-size: 1.4rem;
+                padding: 10px;
+                @include  mobil {
+                    display: flex;
+                }
             }
         }
         p {
@@ -40,6 +65,9 @@
             margin-bottom: 15px;
             margin-top: 15px;
             margin-right: 10px;
+            @include mobil {
+                display: none;
+            }
         }
     }
     .hero__div__anchor {
@@ -48,7 +76,8 @@
         align-items: center;
         justify-content: center;
         background-color: $typo-white;
-        padding: 15px;
+        padding: 10px;
+        filter: drop-shadow(3px 3px 3px $black-bg-fmtm);
         @include desktop {
             width: 30%;
         }
@@ -70,7 +99,8 @@
         align-items: center;
         justify-content: center;
         background-color: $hover;
-        padding: 15px;
+        padding: 10px;
+        filter: drop-shadow(3px 3px 3px $black-bg-fmtm);
         @include desktop {
             width: 30%;
         }
@@ -96,11 +126,8 @@
         width: 3rem;
         height: 3rem;
     }
-}
-
-.carousel-indicators {
-    margin-bottom: 12rem;
     @include mobil {
-        margin-bottom: 2rem;
+        display: none;
     }
 }
+

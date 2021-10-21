@@ -13,6 +13,9 @@ h1 {
     font-size: 12rem;
     font-weight: 400;
     color: $typo-white;
+    @include mobil {
+        font-size: 6rem;
+    }
 }
 h2{
     font-size: 6rem;
