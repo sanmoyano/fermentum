@@ -529,10 +529,10 @@
     font-weight: 700; }
 
 button .carousel-control-prev-icon {
-  background-image: url(../../../icons/2x/sharp_chevron_left_white_24dp.png); }
+  background-image: url(); }
 
 button .carousel-control-next-icon {
-  background-image: url(../../../icons/2x/sharp_chevron_right_white_48dp.png); }
+  background-image: url(); }
 
 /* COLORES FONDO */
 /* TYPO COLOR */
