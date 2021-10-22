@@ -512,6 +512,9 @@
     @media screen and (max-width: 426px) {
       .carousel-item .carousel-caption p {
         display: none; } }
+    @media screen and (min-width: 1024px) {
+      .carousel-item .carousel-caption p {
+        width: 550px; } }
 
 .carousel-item .hero__div__anchor {
   position: relative;

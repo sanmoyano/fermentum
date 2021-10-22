@@ -68,6 +68,9 @@
             @include mobil {
                 display: none;
             }
+            @include desktop {
+                width: 550px;
+            }
         }
     }
     .hero__div__anchor {
