@@ -36,6 +36,8 @@
             font-weight: 400;
             color: $typo-white;
             margin-bottom: 30px;
+            text-align: justify;
+            text-justify: inter-word;
         }
         .comerciales__div__anchor {
             display:flex;
@@ -123,6 +125,8 @@
             color: $typo-white;
             margin-bottom: 30px;
             margin-top: 30px;
+            text-align: justify;
+            text-justify: inter-word;
 
         }
         .nosotros__div__anchor {

@@ -168,10 +168,10 @@
             </div>
         </section>
         <div class="donde__subtitulo">
-            <a href="../paginas/donde.html"><span>on tap map</span></a>
+            <a href="../paginas/donde.html"><span>buscanos: tapmap</span></a>
         </div>
         <div>
-            <!-- este pedacito no esta funcionando ahora, no se bien a que se debe, creo que es un tema de KEGSHOE. Lo dejo para que se vea el espacio que va ocupar  -->
+            <!-- este pedacito no esta funcionando ahora, no se bien a que se debe, creo que es un tema de KEGSHOE, el proveedor del scrip. Lo dejo para que se vea el espacio que va ocupar cuando este funcionando -->
             <div id="locations_map"><div id="panel"></div><div id="on_tap"></div><div id="kegshoe"><a href="https://kegshoe.ca" target="_blank"><img alt="Powered by Kegshoe" height="40" src="https://admin.kegshoe.ca/img/map.png" width="162"></a></div></div><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ0mOACJQBTW6rKOJVwv5gJbT0R7Apgog&extension=.js"></script><script>function initJQuery(){"undefined"==typeof jQuery?(jQueryScriptOutputted||(jQueryScriptOutputted=!0,document.write("<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js'><\/script>")),setTimeout("initJQuery()",50)):(jQuery("head").append("<style type='text/css'>#kegshoe{display:block;float:right;background:0 0;width:162px;height:40px}#locations_map input[type=radio], input[type=checkbox]{margin-right: 5px}.storelocator-panel .directions,.storelocator-panel .store .features{display:none}#on_tap{height:450px;background:0 0}#panel{width:300px;float:left;margin-right:10px;height:450px}.storelocator-panel{border:1px solid #ccc;overflow:auto}.storelocator-panel .store-list{margin:0;padding:0}.storelocator-panel .directions-panel,.storelocator-panel .location-search,.storelocator-panel .store-list li{padding:5px}.storelocator-panel .directions-panel{font-size:.8em}.storelocator-panel .store-list li.store:hover{cursor:pointer;background:#eee}.storelocator-panel .store-list li.highlighted,.storelocator-panel .store-list li.highlighted:hover{background:#ddd}.storelocator-panel .location-search input{width:95%}.storelocator-panel .location-search h4{font-size:.8em;margin:0;padding:0}.storelocator-panel .store-list .no-stores{color:grey}.storelocator-panel .feature-filter{overflow:hidden}.storelocator-panel .feature-filter label{display:block;font-size:.8em;margin:0 .4em;float:left}.store .title{font-weight:700}.store .address,.store .misc,.store .phone,.store .web{font-size:80%;margin-top:.2em;margin-bottom:.5em;display:block}.store .features{overflow:hidden;color:grey;margin:.5em 0;padding:0;font-size:85%;max-width:250px}.store .features li{display:inline;float:left;padding-right:.8em}.store .action{font-size:.8em;margin-right:.5em;margin-top:.5em}.directions{display:none}.feature-filter{margin:.5em 0 1em}</style>"),jQuery(function(){jQuery.ajax({url:"https://admin.kegshoe.ca/ajax/map/1632/a57eb59677da8b9c27df86dadd5adc91",dataType:"json",success:function(e){var t,o=[{stylers:[{saturation:"-100"},{lightness:"20"}]},{featureType:"poi",stylers:[{visibility:"off"}]},{featureType:"transit",stylers:[{visibility:"off"}]},{featureType:"road",stylers:[{lightness:"50"},{visibility:"on"}]},{featureType:"landscape",stylers:[{lightness:"50"}]}],r={zoom:7,center:new google.maps.LatLng(45.50867,-73.553992),mapTypeId:google.maps.MapTypeId.ROADMAP,disableDefaultUI:!1},a=e,s=new google.maps.LatLngBounds;t=new google.maps.Map(jQuery("#on_tap")[0],r),t.setOptions({styles:o});var n=[],l=new storeLocator.FeatureSet;for(i=0;i<a.length;i++){var p=new google.maps.LatLng(a[i][3],a[i][4]);s.extend(p);var c=new storeLocator.FeatureSet;for(j=0;j<a[i][2].length;j++){var d=a[i][2][j],g=d.replace(/\s/g,""),u=new storeLocator.Feature(g,d);l.contains(u)||l.add(u),c.add(u)}var h=new storeLocator.Store(i,p,c,{title:a[i][0],address:a[i][1]});n.push(h),t.fitBounds(s)}var f=google.maps.event.addListener(t,"bounds_changed",function(e){this.setZoom(7),google.maps.event.removeListener(f)}),m=new storeLocator.StaticDataFeed;m.setStores(n);var y=jQuery("#panel"),v=new storeLocator.View(t,m,{features:l});new storeLocator.Panel(y,{locationSearchLabel:"Search near:",view:v,directions:!1})}})}))}var jQueryScriptOutputted=!1;initJQuery()</script><script src="https://kegshoe.ca/js/on-tap-map.min.js"></script>
         </div>
     </main>
@@ -201,7 +201,7 @@
         </section>
         <!-- info de contacto -->
         <section class="section-info">
-            <div>
+            <div class="section-info__logo">
                 <img src="../icons/logotipo_horizontal_ws.svg" alt="">
             </div>
             <div class="section-info__horarios">
@@ -213,7 +213,7 @@
                 </div>
                 <div class="section-info__horarios__div">
                     <h3>Encontranos</h3>
-                    <p><span>Córdoba Capital</span> <br> Barrio General Paz <br>Calle: Felix Frias 498 <br> CD: 5000</p>
+                    <p><span>Córdoba Capital</span><br>Ciudad de Córdoba<br> CD: 5000</p>
                         </p>
                 </div>
                 <div class="section-info__horarios__div">

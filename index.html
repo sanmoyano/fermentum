@@ -58,18 +58,47 @@
     <!-- FIN HEADER -->
 
     <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero__div">
-            <!-- background image -->
-            <h1>fermentum <br> Faber</h1>
-            <div class="hero_div_p">
-                <p>Somos la fábrica número uno de cerveza artesanal en la Ciudad de Córdoba.</p>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/portada_hero1.jpg" class="d-block w-100" alt="portada cerveza">
+                <div class="carousel-caption d-none d-md-block">
+                    <div>
+                        <h1>Fermentum <br> faber</h1>
+                        <p>Somos la fábrica número uno de cerveza artesanal en la Ciudad de Córdoba.</p>
+                        <div class="hero__div__anchor">
+                            <a href="./paginas/nosotros.html">sobre nosotros</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="hero__div__anchor">
-                <a href="https://pency.app/fermentum" target="_blank">comprar cervezas</a>
+            <div class="carousel-item">
+                <img src="./imagenes/portada_hero2.jpg" class="d-block w-100" alt="portada botellas">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="botellas_hero">
+                        <h1>botellas</h1>
+                        <p>Conocé todos nuestros estilos embotellados.</p>
+                        <span>Conocé todos nuestros estilos embotellados. </span>
+                        <div class="hero__div__anchor__botellas">
+                            <a href="https://pency.app/fermentum" target="_blank">comprar cervezas</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     <!-- FIN HERO SECTION -->
 
     <!-- COMIENZO MAIN -->
@@ -183,7 +212,7 @@
                 </div>
                 <div class="section-info__horarios__div">
                     <h3>Encontranos</h3>
-                    <p><span>Córdoba Capital</span> <br> Barrio General Paz <br>Calle: Felix Frias 498 <br> CD: 5000</p>
+                    <p><span>Córdoba</span> <br>Ciudad de Córdoba<br> CD: 5000</p>
                         </p>
                 </div>
                 <div class="section-info__horarios__div">
