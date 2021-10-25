@@ -23,7 +23,7 @@
     }
     .carousel-caption {
         text-align: left;
-        bottom: 35%;
+        bottom: 30%;
         left: 180px;
         @include mobil {
             left: 2rem;
@@ -66,6 +66,9 @@
             margin-top: 15px;
             margin-right: 10px;
             @include mobil {
+                display: none;
+            }
+            @include tablet {
                 display: none;
             }
             @include desktop {

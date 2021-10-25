@@ -471,7 +471,7 @@
 
 .carousel-item .carousel-caption {
   text-align: left;
-  bottom: 45%;
+  bottom: 30%;
   left: 180px; }
   @media screen and (max-width: 426px) {
     .carousel-item .carousel-caption {
@@ -510,6 +510,9 @@
     margin-top: 15px;
     margin-right: 10px; }
     @media screen and (max-width: 426px) {
+      .carousel-item .carousel-caption p {
+        display: none; } }
+    @media screen and (max-width: 769px) {
       .carousel-item .carousel-caption p {
         display: none; } }
     @media screen and (min-width: 1024px) {
