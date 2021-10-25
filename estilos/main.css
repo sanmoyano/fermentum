@@ -476,7 +476,7 @@
   @media screen and (max-width: 426px) {
     .carousel-item .carousel-caption {
       left: 2rem;
-      bottom: 60%; } }
+      bottom: 55%; } }
   .carousel-item .carousel-caption .botellas_hero {
     display: flex;
     flex-direction: column;
