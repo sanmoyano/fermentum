@@ -2,26 +2,32 @@
 @import "../utilities/medias";
 @import "../layout/grids";
 
-.hero {
-    height: 100vh;
-    display: flex;
-    flex-wrap: nowrap;
-    place-items: center left;
-    background-image: url(../../../imagenes/portada_hero.jpg);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    .hero__div {
-        margin: 30px;
-        h1 {
-            font-size: 12rem;
-            font-weight: 400;   
-            color: $typo-white;
-            margin-bottom: 15px;
-            margin-right: 10px;
-            @include mobil {
-                font-size: 7rem;
-            }
+.carousel-inner {
+    .d-none {
+        @include mobil {
+            display: flex !important;
+        }
+    }
+}
+.carousel-indicators {
+    @include mobil {
+        margin-bottom: 15rem;
+    }
+}
+.carousel-item {
+    img {
+        object-fit: cover;
+        object-position: bottom;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .carousel-caption {
+        text-align: left;
+        bottom: 30%;
+        left: 180px;
+        @include mobil {
+            left: 2rem;
+            bottom: 60%;
         }
         .botellas_hero {
             display: flex;

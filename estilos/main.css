@@ -455,107 +455,111 @@
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "div" "div" "div"; } }
 
-.hero {
+@media screen and (max-width: 426px) {
+  .carousel-inner .d-none {
+    display: flex !important; } }
+
+@media screen and (max-width: 426px) {
+  .carousel-indicators {
+    margin-bottom: 15rem; } }
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: bottom;
   height: 100vh;
+  overflow: hidden; }
+
+.carousel-item .carousel-caption {
+  text-align: left;
+  bottom: 30%;
+  left: 180px; }
+  @media screen and (max-width: 426px) {
+    .carousel-item .carousel-caption {
+      left: 2rem;
+      bottom: 60%; } }
+  .carousel-item .carousel-caption .botellas_hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .carousel-item .carousel-caption .botellas_hero h1 {
+      background-color: #0d0d0d;
+      display: inline-block;
+      padding: 10px; }
+    .carousel-item .carousel-caption .botellas_hero p {
+      background-color: #0d0d0d;
+      display: inline-block;
+      padding: 10px; }
+      @media screen and (max-width: 426px) {
+        .carousel-item .carousel-caption .botellas_hero p {
+          display: none; } }
+    .carousel-item .carousel-caption .botellas_hero span {
+      display: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: #0d0d0d;
+      font-size: 1.4rem;
+      padding: 10px; }
+      @media screen and (max-width: 426px) {
+        .carousel-item .carousel-caption .botellas_hero span {
+          display: flex; } }
+  .carousel-item .carousel-caption p {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 10px; }
+    @media screen and (max-width: 426px) {
+      .carousel-item .carousel-caption p {
+        display: none; } }
+    @media screen and (max-width: 769px) {
+      .carousel-item .carousel-caption p {
+        display: none; } }
+    @media screen and (min-width: 1024px) {
+      .carousel-item .carousel-caption p {
+        width: 550px; } }
+
+.carousel-item .hero__div__anchor {
+  position: relative;
   display: flex;
-  flex-wrap: nowrap;
-  place-items: center left;
-  background-image: url(../../../imagenes/portada_hero.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .hero .hero__div {
-    margin: 30px; }
-    .hero .hero__div h1 {
-      font-size: 12rem;
-      font-weight: 400;
-      color: #f5f5f5;
-      margin-bottom: 15px;
-      margin-right: 10px; }
-      @media screen and (max-width: 426px) {
-        .hero .hero__div h1 {
-          font-size: 7rem; } }
-    .hero .hero__div .botellas_hero {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start; }
-      .hero .hero__div .botellas_hero h1 {
-        background-color: #0d0d0d;
-        display: inline-block;
-        padding: 10px; }
-      .hero .hero__div .botellas_hero p {
-        background-color: #0d0d0d;
-        display: inline-block;
-        padding: 10px; }
-        @media screen and (max-width: 426px) {
-          .hero .hero__div .botellas_hero p {
-            display: none; } }
-      .hero .hero__div .botellas_hero span {
-        display: none;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        color: #0d0d0d;
-        font-size: 1.4rem;
-        padding: 10px; }
-        @media screen and (max-width: 426px) {
-          .hero .hero__div .botellas_hero span {
-            display: flex; } }
-    .hero .hero__div p {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #f5f5f5;
-      margin-bottom: 15px;
-      margin-top: 15px;
-      margin-right: 10px; }
-      @media screen and (max-width: 426px) {
-        .hero .hero__div p {
-          display: none; } }
-      @media screen and (max-width: 769px) {
-        .hero .hero__div p {
-          display: none; } }
-      @media screen and (min-width: 1024px) {
-        .hero .hero__div p {
-          width: 550px; } }
-  .hero .hero__div__anchor {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f5f5f5;
-    padding: 10px;
-    filter: drop-shadow(3px 3px 3px #0d0d0d); }
-    @media screen and (min-width: 1024px) {
-      .hero .hero__div__anchor {
-        width: 30%; } }
-    .hero .hero__div__anchor:hover {
-      background-color: #d9ad5b; }
-    .hero .hero__div__anchor a {
-      font-family: "Montserrat", sans-serif;
-      color: #0d0d0d;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-size: 1.6rem;
-      font-weight: 700; }
-  .hero .hero__div__anchor__botellas {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #d9ad5b;
-    padding: 10px;
-    filter: drop-shadow(3px 3px 3px #0d0d0d); }
-    @media screen and (min-width: 1024px) {
-      .hero .hero__div__anchor__botellas {
-        width: 30%; } }
-    .hero .hero__div__anchor__botellas:hover {
-      background-color: #f5f5f5; }
-    .hero .hero__div__anchor__botellas a {
-      font-family: "Montserrat", sans-serif;
-      color: #0d0d0d;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-size: 1.6rem;
-      font-weight: 700; }
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  filter: drop-shadow(3px 3px 3px #0d0d0d); }
+  @media screen and (min-width: 1024px) {
+    .carousel-item .hero__div__anchor {
+      width: 30%; } }
+  .carousel-item .hero__div__anchor:hover {
+    background-color: #d9ad5b; }
+  .carousel-item .hero__div__anchor a {
+    font-family: "Montserrat", sans-serif;
+    color: #0d0d0d;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700; }
+
+.carousel-item .hero__div__anchor__botellas {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9ad5b;
+  padding: 10px;
+  filter: drop-shadow(3px 3px 3px #0d0d0d); }
+  @media screen and (min-width: 1024px) {
+    .carousel-item .hero__div__anchor__botellas {
+      width: 30%; } }
+  .carousel-item .hero__div__anchor__botellas:hover {
+    background-color: #f5f5f5; }
+  .carousel-item .hero__div__anchor__botellas a {
+    font-family: "Montserrat", sans-serif;
+    color: #0d0d0d;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700; }
 
 .carousel-control-prev, .carousel-control-next {
   color: #f5f5f5;
