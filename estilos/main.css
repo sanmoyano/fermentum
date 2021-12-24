@@ -471,7 +471,7 @@
 
 .carousel-item .carousel-caption {
   text-align: left;
-  bottom: 30%;
+  bottom: 60%;
   left: 180px; }
   @media screen and (max-width: 426px) {
     .carousel-item .carousel-caption {
@@ -1185,6 +1185,8 @@ nav {
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase; }
+    nav ul li {
+      margin: 5px; }
     nav ul .inicio {
       display: none; }
       @media screen and (max-width: 426px) {
@@ -1663,7 +1665,7 @@ nav {
       margin-bottom: 30px; }
       @media screen and (min-width: 1024px) {
         .nosotros .nosotros__div .nosotros__div__anchor {
-          width: 45%; } }
+          width: 35%; } }
       .nosotros .nosotros__div .nosotros__div__anchor:hover {
         background-color: #d9ad5b; }
       .nosotros .nosotros__div .nosotros__div__anchor a {
@@ -3716,36 +3718,30 @@ nav {
 /* TIPOGRAFIAS DEFINIDAS */
 /* ALTURA BACK SUBTITULOS */
 /* MARGENES */
-.error {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #0d0d0d; }
-  .error img {
-    width: 500px; }
-  .error h1 {
-    margin: 15px; }
-  .error p {
-    font-family: "Montserrat", sans-serif;
-    color: #f5f5f5;
-    font-weight: 600;
-    font-size: 1.6rem; }
-  .error a {
-    background-color: #8BE234;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 2rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #0d0d0d;
-    width: 200px;
-    text-align: center;
-    margin: 30px; }
-    .error a:hover {
-      color: #f5f5f5; }
+.tienda_main {
+  height: 100vh;
+  background-image: url(../../../imagenes/Fermentum-dic-13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .tienda_main .texto_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .tienda_main .texto_info .logo_fmtm {
+      width: 500px;
+      margin: 30px; }
+    .tienda_main .texto_info p {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin: 15px; }
+    .tienda_main .texto_info h1 {
+      font-size: 6rem;
+      color: #0d0d0d;
+      margin: 30px; }
+    .tienda_main .texto_info a {
+      font-size: 1.2rem; }
 
 /* COMPONENTS */
 /* COLORES FONDO */

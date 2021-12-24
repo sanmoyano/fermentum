@@ -52,6 +52,9 @@ nav {
         font-size: 1.6rem;
         font-weight: 700;
         text-transform: uppercase;
+        li {
+            margin: 5px;
+        }
         .inicio {
             display: none;
             @include mobil {
@@ -110,3 +113,4 @@ nav {
         }
     }
 }
+

@@ -1,0 +1,36 @@
+@import "../utilities/vars";
+@import "../components/extend";
+@import "../layout/grids";
+@import "../utilities/medias";
+
+.tienda_main {
+    height: 100vh;
+    background-image: url(../../../imagenes/Fermentum-dic-13.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    .texto_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .logo_fmtm {
+            width: 500px;
+            margin: 30px;
+        }
+        p {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin: 15px;
+        }
+        h1 {
+            font-size: 6rem;
+            color: $black-bg-fmtm;
+            margin: 30px;
+        }
+        a {
+            font-size: 1.2rem;
+        }
+    }
+}
